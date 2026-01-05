@@ -63,7 +63,7 @@ export default function BudgetForm({ data, onSave, isLoading }: BudgetFormProps)
                             </CardHeader>
                             <CardContent>
                                 <div className="relative">
-                                    <span className="absolute left-3 top-1/2 -translate-y-1/2 text-muted-foreground">Ksh</span>
+                                    <span className="absolute left-1 top-1/2 -translate-y-1/2 text-muted-foreground">Ksh</span>
                                     <Input
                                         type="number"
                                         step="0.01"
